@@ -1,0 +1,22 @@
+{
+    "name": "01_render_html_page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "watch": "browser-sync start --proxy \"http://localhost:3000\" --files \"public/**/*.*\" --no-ui",
+        "live": "npm run dev & npm run watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0",
+        "nodemon": "^3.1.10"
+    },
+    "devDependencies": {
+        "browser-sync": "^3.0.4"
+    }
+}
