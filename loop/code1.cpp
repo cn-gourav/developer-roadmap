@@ -1,4 +1,4 @@
-// factorial of number 
+// multipllication of table 
 
 #include <iostream>
 using namespace std;
@@ -7,13 +7,10 @@ int main() {
     int num;
     cin>>num;
 
-    int fac = 1;
 
-    for(int i=1; i<=num; i++){
-        fac = fac * i;
+    for(int i=1; i<10; i++){
+        cout<<num<<" * "<<i<<" = "<<num*i<<endl;
     }
-
-    cout<<fac;
     
     return 0;
 }
