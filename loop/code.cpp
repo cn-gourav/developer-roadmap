@@ -12,7 +12,6 @@ int main() {
     for(int i=1; i<=num; i++){
         fac = fac * i;
     }
-
     cout<<fac;
     
     return 0;
