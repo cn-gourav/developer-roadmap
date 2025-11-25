@@ -7,7 +7,7 @@ int main() {
     int length , width ; 
     cin>>length>>width;
 
-    int area =  length * width;
+    int area =length * width;
     cout<<area;
     
     return 0;
