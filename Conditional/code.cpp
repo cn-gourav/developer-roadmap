@@ -2,7 +2,16 @@
 using namespace std;
 int main() {
 
-    // Your code here 
+    int num;
+    cin>>num;
+
+    if(num == 0){
+        cout<<"Zero";
+    }else if(num > 0){
+        cout<<"It's positive";
+    }else{
+        cout<<"It's negative";
+    }
     
     return 0;
 }
