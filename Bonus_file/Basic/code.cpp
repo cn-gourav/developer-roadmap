@@ -1,11 +1,12 @@
-// defined variable 
+// defined variable
 
-#include<iostream>
+#include <iostream>
 #define PI 3.14
 using namespace std;
-int main() {
+int main()
+{
 
-    cout<<PI;
-    
+    cout << PI;
+        
     return 0;
 }
