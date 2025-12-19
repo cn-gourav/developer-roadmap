@@ -7,6 +7,9 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Home route
 app.get("/", (req, res) => {
+    res.send("hello world!!");
+});
+app.get("/aditi", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
